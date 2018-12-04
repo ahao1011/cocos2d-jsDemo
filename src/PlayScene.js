@@ -5,11 +5,11 @@ var  PlayLayer  = cc.Layer.extend({
            this._super();
             var size = cc.winSize;
             // addbg
-           this.bgSprite = new cc.Sprite(res.background);
+           this.bgSprite = new cc.Sprite(res.BackBg);
            this.bgSprite.attr({
                x:size.width/2,
                y:size.height/2,
-               rotation:180
+               // rotation:180
            })
            this.addChild(this.bgSprite);
            return true;

@@ -110,8 +110,9 @@ cc.game.onStart = function(){
     // cc.LoaderScene.preload(g_resources, function () {
     //     cc.director.runScene(new StartScene());
     // }, this);
+
     cc.LoaderScene.preload(g_resources,function(){
-        cc.director.runScene(new  StartScene());
+        cc.director.runScene(new  PlayScene());
     },this);
 };
 cc.game.run();
